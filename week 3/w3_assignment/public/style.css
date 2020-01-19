@@ -1,0 +1,23 @@
+body{
+    padding: 5px;
+    text-align: center;
+    width: 100%;
+}
+#img{
+    text-align: center;
+}
+p{
+    text-align: justify;
+    width: 50%;
+}
+#p1{
+    text-align: center;
+    width: 100%;
+    margin-left: 25%;
+}
+.stayLeft{
+    text-align: left;
+}
+h1{
+    text-align: center;
+}
