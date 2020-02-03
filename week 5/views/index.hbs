@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Homepage</title>
+</head>
+<body>
+    <h1>Welcome To {{name}} Homepage!</h1> 
+
+        <label>Create a helper script that will generate a grid of generated colors displaying the RGB color code inside the grid in both white and black. The size of the grid should be passed into the helper. Here is an example 3x3 grid:</label>
+        <table>
+        <tbody>
+            <tr>
+                <td style="background-color: #a3bc34;">A3BC34<br/><span style="color:#ffffff">A3BC34</span></td>
+                <td style="background-color: #247422;">247422<br/><span style="color:#ffffff">247422</span></td>
+                <td style="background-color: #aabbcc;">AABBCC<br/><span style="color:#ffffff">AABBCC</span></td>
+            </tr>
+            <tr>
+                <td style="background-color: #173534;">173534<br/><span style="color:#ffffff">173534</span></td>
+                <td style="background-color: #1351ac;">1351AC<br/><span style="color:#ffffff">1351AC</span></td>
+                <td style="background-color: #547142;">547142<br/><span style="color:#ffffff">547142</span></td>
+            </tr>
+            <tr>
+                <td style="background-color: #ad2431;">AD2431<br/><span style="color:#ffffff">AD2431</span></td>
+                <td style="background-color: #113344;">113344<br/><span style="color:#ffffff">113344</span></td>
+                <td style="background-color: #431241;">431241<br/><span style="color:#ffffff">431241</span></td>
+            </tr>
+        </tbody>
+    </table> 
+
+<form action="/results" method="post">
+<label>Select number rows</label>
+<select name='numb'>
+  <option value="3">3</option>
+  <option value="4">4</option>
+  <option value="5">5</option>
+  <option value="10">10</option>
+  <option value="20">20</option>
+</select>
+<input type="submit">
+
+</form>
+    {{{choice number color}}}
+
+{{!-- <h1>{{number}}</h1> --}}
+
+    {{!-- <table style="width: 100%;Height:100%;"> --}}
+
+
+
+
+    {{>footer}}
+</body>
+</html>

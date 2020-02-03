@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    {{{style}}}
+    <title>Week 2 | Node Express</title>
+</head>
+<body>
+    {{>nav}}
+    <h1 class="stayLeft">Form Page</h1>
+    <p>{{message}}</p>
+    <!--<form action="/results?middle=Gustavo" method="post">  -->
+<form action="/results" method="post">
+    <input type="text" name="Name" placeholder="Enter Name">
+    <input type="text" name="Email" placeholder="example@gmail.com">
+    <br><br>
+    <textarea type="text" name="Comment" placeholder="Enter comments here..." style="height:70px"></textarea>
+    <br><br>
+    <input type="submit" >
+</form>
+
+    {{>footer}}
+</body>
+</html>
