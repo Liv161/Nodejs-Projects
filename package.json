@@ -1,0 +1,26 @@
+{
+  "name": "se373",
+  "version": "1.0.0",
+  "description": "Node Js",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "hbs": "^4.1.0",
+    "mongodb": "^3.5.2",
+    "mongoose": "^5.8.11"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Liv161/SE373.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Liv161/SE373/issues"
+  },
+  "homepage": "https://github.com/Liv161/SE373#readme"
+}
